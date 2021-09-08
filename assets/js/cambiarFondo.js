@@ -2,10 +2,10 @@
 //Nahuel Jose
 $( function(){
 
-var images = ['/assets/img/F100008060.jpg',
-            '/assets/img/F100022451.jpg',
-            '/assets/img/F100028281.jpg',
-            '/assets/img/F100028502.jpg'];
+var images = ['assets/img/F100008060.jpg',
+            'assets/img/F100022451.jpg',
+            'assets/img/F100028281.jpg',
+            'assets/img/F100028502.jpg'];
 var i = 0;
 var renew = setInterval(function(){
     if(images.length == i){
