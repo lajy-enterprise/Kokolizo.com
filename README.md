@@ -1,6 +1,6 @@
 # LAFERGIOR Web PAge
 
-_Pagina web para la empresa Multiservicios LAFERGIOR_
+_Pagina web para la empresa Kokolizo.com_
 
 ## Que posee Esta PAgina 🚀
 
