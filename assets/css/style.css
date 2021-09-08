@@ -36,6 +36,33 @@
         );
 } */
 
+.contenedorMDE {
+	margin: auto;
+	display: table;
+}
+
+.Mde { 
+	position: relative; 
+  float: left;
+  background: #d9d0deff;
+	/* color: #fff; */
+	font-size: 2.5em;
+}
+
+.Mde span {
+    position:absolute;
+    right:0;
+    width:0;
+    background: #d9d0deff;
+    border-left: 1px solid #000;
+    animation: escribir 5s steps(31) infinite alternate;
+}
+
+@keyframes escribir {
+    from { width: 100% }
+    to { width:0 }
+}
+
 .bg-image-card {
   position: relative;
   overflow: hidden;
@@ -45,6 +72,32 @@
   height: auto;
   width: auto;
   max-width: 300px;
+  box-sizing: content-box;
+}
+
+.carrouselClasificados{
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  width: auto;
+  height: auto;
+  max-height: 125px;
+  /* max-width: 125px; */
+  box-sizing: content-box;
+}
+
+.imgCategorias{
+  position: relative;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
+  width: auto;
+  height: auto;
+  max-height: 125px;
+  /* max-width: 125px; */
   box-sizing: content-box;
 }
 
@@ -59,7 +112,7 @@
 
 }
 
-.card {
+.card-color {
   background-color: #bc8da0ff !important;
 }
 
@@ -67,6 +120,7 @@
   filter: drop-shadow(0 5px 5px rgba(0, 0, 0, 0.9));
 }
 
+/* 
 a:visited {
   color:white;
 }
@@ -81,4 +135,4 @@ a:active {
 
 a:hover {
   color:white;
-}
+} */
